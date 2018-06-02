@@ -1,0 +1,1 @@
+%~dp0nuget.exe pack %~dp0Plugin.nuspec -OutputDirectory %~dp0

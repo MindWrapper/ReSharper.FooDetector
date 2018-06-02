@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>ReSharper.FooDetector</id>
+		<title>ReSharper.FooDetector</title>
+		<version>2018.1.0</version>
+		<authors>Yan Drugalya</authors>
+		<owners>Yan Drugalya</owners>
+		<summary>ReSharper.FooDetector</summary>
+		<description>Minimal ReSharper compiled extension that dectect if class name contains 'Foo' and displays a warning</description>
+		<projectUrl>https://github.com/MindWrapper/ReSharper.FooDetector</projectUrl>
+		<licenseUrl>https://github.com/MindWrapper/ReSharper.FooDetector/blob/master/LICENSE</licenseUrl>
+		<dependencies>
+			<dependency id="Wave" version="[12.0]" />
+		</dependencies>
+		<tags>resharper plugin example tests</tags>
+	</metadata>
+	<files>
+		<file src="..\bin\Release\ReSharper.FooDetector.dll" target="DotFiles" />
+	</files>
+</package>
